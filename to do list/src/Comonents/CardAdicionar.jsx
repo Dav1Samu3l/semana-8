@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 function CardAdicionar({AdicionarTarefa} ) {
     const [tarefa, setTarefa] = useState("")
-
+ 
 
 
     return (
@@ -14,7 +14,7 @@ function CardAdicionar({AdicionarTarefa} ) {
                     value={tarefa}
                     onChange={(e) => setTarefa(e.target.value)} />
             </form>
-            <button onClick={() => AdicionarTarefa(tarefa)}>Adicionar</button>
+            <button onClick={(e) => AdicionarTarefa(tarefa)}>Adicionar</button>
         </div>
     )
 }

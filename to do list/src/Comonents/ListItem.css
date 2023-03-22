@@ -1,0 +1,36 @@
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+   
+  }
+  
+  .list-item.finalizado {
+    border-bottom: none;
+  }
+  
+  .button-reset {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .list-item p {
+    text-decoration: none;
+  }
+  
+  .list-item p.finalizado {
+    text-decoration: line-through;
+    color: green;
+    border-bottom: none;
+  }
+
+  
+  .list-item p.sem-borda {
+    border-bottom: none;
+  }
+  .list-item.finalizado {
+    border-bottom: none;
+  }
+    
+  
